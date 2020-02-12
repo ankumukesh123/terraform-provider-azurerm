@@ -96,19 +96,19 @@ func resourceArmAppServicePlan() *schema.Resource {
 
 			/// AppServicePlanProperties
 			"app_service_environment_id": {
-				Type:          schema.TypeString,
-				Optional:      true,
-				ForceNew:      true,
+				Type:     schema.TypeString,
+				Optional: true,
+				ForceNew: true,
 			},
 
 			"per_site_scaling": {
-				Type:          schema.TypeBool,
-				Optional:      true,
+				Type:     schema.TypeBool,
+				Optional: true,
 			},
 
 			"reserved": {
-				Type:          schema.TypeBool,
-				Optional:      true,
+				Type:     schema.TypeBool,
+				Optional: true,
 			},
 
 			"maximum_elastic_worker_count": {
